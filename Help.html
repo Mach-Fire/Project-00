@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educators Need Support</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    html, body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        text-align: center;
+        width: 100%;
+        max-height: fit-content;
+        /* height: 150%;*/
+        background-color: bisque;
+        font-size: 25px;
+    }
+    .help{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: none;
+    }
+    nav{
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        color: aliceblue;
+    }
+    span{
+        color: rgb(255, 13, 13);
+    }
+    .wrapper{
+        display: grid;
+        align-items: start;
+        justify-items: stretch;
+        margin-left: 10%;
+        margin-right: 10%;
+       /* margin-top: -15%; */
+        
+    }
+    .item-1{
+        align-self: start;
+        font-weight: bold;
+        font-size: larger;
+        margin-top: -1%;
+    }
+    .item-2{
+        align-self: start;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .item-3{
+        align-self: start;
+        font-weight: bold;
+        font-size: larger;
+    }
+    h1{
+        text-decoration:underline red;
+        margin-top: 10%;
+    }
+    h2{
+        text-align: left;
+        text-decoration:underline red;
+        font-size:x-large;
+    }
+    h2 a{
+        color: black;
+        text-decoration: underline red;
+    }
+    button{
+        background-color: bisque;
+        float: left;
+        border-color: black;
+        width: 5%;
+    }
+    a{
+        color: red;
+        font-size: x-large;
+    }
+    h3{
+        font-size: xx-large;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 8%;
+        font-style: italic;
+    }
+
+</style>
+<body>
+    
+    
+    <div class = "help">
+        <nav>
+            <img src="support-the-future-low-resolution-logo-color-on-transparent-background.png" width="250">
+            <ul>
+                <li><a href="LAFU.html">HOME</a></li>
+                <li><a href="Help.html">HOW TO HELP</a></li>
+                <li><a href="EC.html">EDUCATION CODE</a></li>
+            </ul>
+        </nav>
+        <h1>HOW TO HELP</h1>
+        <div class="wrapper">
+            <div class="item-1">
+                <h2>Sign Our Petition:</h2>
+                <p1 style="text-align: center;"><a href="https://www.change.org/MsBuenrostro"> Petition Link </a></h2><br>
+                <br><img src="petition_jif.GIF" alt="Website animation gif"/><br>
+                <p style="font-style: italic; font-size: x-large;"> (Please be aware that we are <span> NOT </span> asking or will never ask for any donations. The petitions website may prompt you to donate after signing, please do ignore this prompt. Thank you once again!)</p>
+            </div>
+            <div class="item-2">
+                <h2> Send an E-mail with the following prompt to:</h2>
+                <a href="mailto:mxr6867@lausd.net"> mxr6867@lausd.net</a>
+                <p id="p1"> "A leader leads. Makes his team better. It's impossible to understand why you as a leader would force an effective teacher like Ms. Buenrostro leave the school district. The students of LAUSD need effective, caring teachers like Ms.Buenrostro. You sir took that away from students. Because of this, you sir, are no leader. Students don't need principals like you. But they do need teachers like Ms. Buenrostro" </p>
+                <button onclick="copyToClipboard('p1')">Copy</button>
+            </div>
+            <div class="item-3">
+                <h2> Send an E-mail with the following prompt to: </h2>
+                <a href="mailto:mxr6867@lausd.net"> Other email here</a>
+                <p id="p2"> "A leader leads. Makes his team better. It's impossible to understand why you as a leader would force an effective teacher like Ms. Buenrostro leave the school district. The students of LAUSD need effective, caring teachers like Ms.Buenrostro. You sir took that away from students. Because of this, you sir, are no leader. Students don't need principals like you. But they do need teachers like Ms. Buenrostro" </p>
+                <button onclick="copyToClipboard('p2')">Copy</button>
+            </div>
+        </div>
+        <h3>Thank You for your time and support!<br> -Valeria Buenrostro</h3>
+    </div>
+    <script>
+      function copyToClipboard(id){
+      var str = document.getElementById(id);
+      window.getSelection().selectAllChildren(str);
+      document.execCommand("Copy")
+        }
+    </script>
+</body>
+</html>
