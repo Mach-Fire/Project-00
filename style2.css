@@ -1,0 +1,179 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    max-height: fit-content;
+    /* height: 150%;*/
+    background-color: bisque;
+    font-size: 25px;
+}
+.help{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: none;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+}
+span{
+    color: rgb(255, 13, 13);
+}
+.wrapper{
+    display: grid;
+    align-items: start;
+    justify-items: stretch;
+    margin-left: 10%;
+    margin-right: 10%;
+   /* margin-top: -15%; */
+    
+}
+.item-1{
+    align-self: start;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: -1%;
+}
+.item-2{
+    align-self: start;
+    font-weight: bold;
+    font-size: larger;
+}
+.item-3{
+    align-self: start;
+    font-weight: bold;
+    font-size: larger;
+}
+h1{
+    text-decoration:underline red;
+    margin-top: 10%;
+}
+h2{
+    text-align: left;
+    text-decoration:underline red;
+    font-size:x-large;
+}
+h2 a{
+    color: black;
+    text-decoration: underline red;
+}
+button{
+    background-color: bisque;
+    float: left;
+    border-color: black;
+    width: 5%;
+}
+a{
+    color: red;
+    font-size: x-large;
+}
+h3{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8%;
+    font-style: italic;
+}
+.pic{
+    width: 250px;
+}
+p{
+    font-style: italic;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 390px){
+    html,body{
+        width: fit-content;
+        height: fit-content;
+    }
+    .help{
+        width: fit-content;
+        height: fit-content;
+    }
+    nav{
+        display: flex;
+        width: fit-content;
+        margin: auto;
+        /*padding: 20px 0; */
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        display: inline-flex;
+        list-style: none;
+        /*margin: 10px 20px;*/
+        font-size: 9px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 9px;
+    }
+    h1{
+        font-size: medium;
+    }
+    .wrapper{
+        height: fit-content;
+        width: fit-content;
+    }
+    .item-1{
+        font-size: xx-small;
+    }
+    .item-2{
+        font-size: small;
+    }
+    .item-3{
+        font-size: large;
+    }
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size: large;
+    }
+    h2 a{
+        font-size: large;
+    }
+    a{
+        font-size: large;
+    }
+    h3{
+        font-size: large;
+    }
+    button{
+        width: 45px;
+    }
+    .pic{
+        width: 60px;
+    }
+    img{
+        width: 230px;
+    }
+    p{
+        font-size: large;
+    }
+}
