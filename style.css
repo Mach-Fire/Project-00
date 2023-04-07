@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+html, body{
+    width: 100%;
+    height: 145%;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: none;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: aliceblue;
+}
+.Scream{
+    text-align: center;
+}
+.Scream h1{
+    text-shadow: 50px;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(255, 13, 13);
+}
+span1{
+    color: black;
+    font-weight: bold;
+}
+
+.pic{
+    float: left;
+    margin: 50px;
+    max-width: 350px;
+    max-height: 350px;
+    padding: 1em
+}
+
+p{
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.last{
+    text-align:center;
+    margin-top: 5%;
+}
+img{
+    width: 250px;
+}
+
+@media screen and (max-width: 390px){
+    html,body{
+        background-color: bisque;
+        font-family: sans-serif;
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+    }
+    .education_header{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        background: none;
+    }
+    nav{
+        display: flex;
+        width: fit-content;
+        margin: auto; 
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+    nav ul li{
+        display: inline-flex;
+        list-style: none;
+        /*margin: 10px 20px;*/
+        /*font-size: 10px;*/
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 9px;
+    }
+    .Scream{
+        font-size: medium;
+    }
+    .Scream h1{
+        font-size: x-large;
+    }
+    h1{
+        font-size: medium;
+    }
+    p{
+        font-size: small;
+        margin: 5%;
+        word-spacing: 0.5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    img{
+        width: 85px;
+    }
+    .pic{
+        width: 110px;
+        height: 130px;
+        float: none;
+        margin: -3%;
+    }
+    
+}

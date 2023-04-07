@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educators Need Support</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+    
+    <div class = "help">
+        <nav>
+            <img class="pic" src="support-the-future-low-resolution-logo-color-on-transparent-background.png">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Help.html">HOW TO HELP</a></li>
+                <li><a href="EC.html">EDUCATION CODE</a></li>
+            </ul>
+        </nav>
+        <h1>HOW TO HELP</h1>
+        <div class="wrapper">
+            <div class="item-1">
+                <h2>Sign Our Petition:</h2>
+                <p1 style="text-align: center;"><a href="https://www.change.org/MsBuenrostro"> Petition Link </a></h2><br>
+                <br><img src="petition_jif.GIF" alt="Website animation gif"/><br>
+                <p> (Please be aware that we are <span> NOT </span> asking or will never ask for any donations. The petitions website may prompt you to donate after signing, please do ignore this prompt. Thank you once again!)</p>
+            </div>
+            <div class="item-2">
+                <h2> Send an E-mail with the following prompt to:</h2>
+                <a href="mailto:mxr6867@lausd.net"> mxr6867@lausd.net</a>
+                <p id="p1"> "A leader leads. Makes his team better. It's impossible to understand why you as a leader would force an effective teacher like Ms. Buenrostro leave the school district. The students of LAUSD need effective, caring teachers like Ms.Buenrostro. You sir took that away from students. Because of this, you sir, are no leader. Students don't need principals like you. But they do need teachers like Ms. Buenrostro" </p>
+                <button onclick="copyToClipboard('p1')">Copy</button>
+            </div>
+            <div class="item-3">
+                <h2> Send an E-mail with the following prompt to: </h2>
+                <a href="mailto:mxr6867@lausd.net"> Other email here</a>
+                <p id="p2"> "A leader leads. Makes his team better. It's impossible to understand why you as a leader would force an effective teacher like Ms. Buenrostro leave the school district. The students of LAUSD need effective, caring teachers like Ms.Buenrostro. You sir took that away from students. Because of this, you sir, are no leader. Students don't need principals like you. But they do need teachers like Ms. Buenrostro" </p>
+                <button onclick="copyToClipboard('p2')">Copy</button>
+            </div>
+        </div>
+        <h3>Thank You for your time and support!<br> -Valeria Buenrostro</h3>
+    </div>
+    <script>
+      function copyToClipboard(id){
+      var str = document.getElementById(id);
+      window.getSelection().selectAllChildren(str);
+      document.execCommand("Copy")
+        }
+    </script>
+</body>
+</html>
