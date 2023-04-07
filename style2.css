@@ -104,7 +104,7 @@ p{
     font-size: x-large;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 460px){
     html,body{
         width: fit-content;
         height: fit-content;
